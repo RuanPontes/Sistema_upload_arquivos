@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adicione os links para o Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #407bff !important;">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">IFPB Archives</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="login.html">Logout</a>
+                </li>                
+            </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container my-4">
+        <h2>IFPB Archives</h2>
+        <p>Aqui você pode fazer o upload e armazenar com segurança seus arquivos importantes. Mantenha seus dados protegidos e acessíveis a qualquer momento.</p>
+        
+        <label for="arquivo" class="custom-file-upload btn btn-primary">
+            Escolher Ficheiros
+        </label>
+        
+        <input type="file" id="arquivo" multiple>  
+        <table class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>Nome do Arquivo</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaArquivos">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

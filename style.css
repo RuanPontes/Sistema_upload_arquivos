@@ -1,0 +1,16 @@
+/* Estilos para o botão personalizado */
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Ocultar o elemento de entrada de texto do arquivo */
+#arquivo {
+    display: none;
+}
