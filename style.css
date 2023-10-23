@@ -1,8 +1,11 @@
-/* Estilos para o botão personalizado */
+.container > * {
+    margin-bottom: 15px; /* Ajuste este valor conforme necessário */
+}
+
 .custom-file-upload {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Cor de fundo azul */
+    background-color: #3ca44c; /* Cor de fundo azul */
     color: #fff;
     border: none;
     cursor: pointer;
@@ -10,7 +13,99 @@
     font-weight: bold;
 }
 
-/* Ocultar o elemento de entrada de texto do arquivo */
+
 #arquivo {
     display: none;
+}
+
+
+.body-fade-animation {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.ifpb-archives:hover {
+   
+    transform: scale(1); 
+    transition: color 0.3s, transform 0.3s;
+}
+
+
+.logout:hover {
+    transform: scale(1.1); 
+    transition: color 0.3s, transform 0.3s;
+}
+
+
+.custom-file-upload:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s;
+}
+
+
+.download-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2a2e36;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #3ca44c;
+}
+
+.download-cell {
+    width: 1%; /* Ajuste este valor conforme necessário */
+    white-space: nowrap;
+}
+
+.icone {
+    vertical-align: text;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+#upload-card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adicione esta linha */
+}
+
+.small-text {
+    font-size: 0.8rem; /* Ajuste este valor conforme necessário */
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.icone-imagem {
+    display: block;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Ajuste este valor conforme necessário */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
