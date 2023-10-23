@@ -28,9 +28,9 @@ Este projeto foi desenvolvido como parte de um trabalho de faculdade e tem como 
 
 Inclua capturas de tela da aplicação para que os usuários possam visualizar a interface do sistema. 
 
-![Tela de Login](screenshots/login.png)
-![Página de Upload](screenshots/upload.png)
-![Página de Download](screenshots/download.png)
+![Tela de Login](images/tela_login.png)
+![Página de Principal](images/telaprincipal.png)
+
 
 
 
