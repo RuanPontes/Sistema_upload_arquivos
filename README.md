@@ -21,7 +21,8 @@ Este projeto foi desenvolvido como parte de um trabalho de faculdade e tem como 
 2. Abra o arquivo `index.html` em um navegador da web para acessar a aplicação.
 3. Para fazer o upload de arquivos, clique no botão correspondente e siga as instruções.
 4. Para fazer o download de arquivos, faça o login usando as credenciais apropriadas.
-5. Desfrute das funcionalidades da aplicação.
+5. Gmail para o login (teste@gmail.com)
+6. Senha para o login (1234)
 
 ## Capturas de Tela
 
