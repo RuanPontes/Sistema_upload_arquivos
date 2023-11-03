@@ -1,6 +1,10 @@
+
 # Projeto de Upload e Download de Arquivos
 
-Este projeto foi desenvolvido como parte de um trabalho de faculdade e tem como objetivo demonstrar a funcionalidade de upload e download de arquivos, além de apresentar uma tela de login. A aplicação é construída utilizando HTML, CSS, JavaScript e faz uso de Bootstrap para melhorar a experiência do usuário.
+Este projeto foi desenvolvido como parte de um trabalho de faculdade e tem como objetivo demonstrar a funcionalidade de upload e download de arquivos, além de apresentar uma tela de login. A aplicação é construída utilizando HTML, CSS, JavaScript e faz uso de Bootstrap para melhorar a experiência do usuário.]
+
+## Preview
+ `https://ruanpontes.github.io/Sistema_upload_arquivos/`
 
 ## Funcionalidades
 
