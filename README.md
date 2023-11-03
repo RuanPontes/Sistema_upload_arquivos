@@ -1,3 +1,11 @@
+## IFPB ARCHIVES
+
+![Tela de Login](images/tela_login.png)
+![Página de Principal](images/telaprincipal.png)
+
+
+
+
 
 # Projeto de Upload e Download de Arquivos
 
@@ -27,13 +35,6 @@ Este projeto foi desenvolvido como parte de um trabalho de faculdade e tem como 
 4. Para fazer o download de arquivos, faça o login usando as credenciais apropriadas.
 5. Gmail para o login **teste@gmail.com**
 6. Senha para o login **1234**
-
-## Capturas de Tela
-
-Inclua capturas de tela da aplicação para que os usuários possam visualizar a interface do sistema. 
-
-![Tela de Login](images/tela_login.png)
-![Página de Principal](images/telaprincipal.png)
 
 
 
